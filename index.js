@@ -32,17 +32,15 @@ For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you ma
 
 function summation(number){
 
-  let total = 0
-
-  for (let i=0; i < number; i++){
+  let total = 0;
+  
+  for(let i=0; i <= number; i++){
     total += i;
   }
   return total;
-
-
 }
 
-console.log(summation(4));
+console.log(summation(2));
  
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
