@@ -212,13 +212,18 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 /* 🐴🐴🐴 Step 1: Base Constructor 🐴🐴🐴
  Use the constructor function named CuboidMaker to accept properties for length, width, and height which can be initialized as an object
 */
-function CuboidMaker(/*Your Code Here */) {
-  /*Your Code Here */
+function CuboidMaker(attrs) {
+  this.width = attrs.width;
+  this.height = attrs.height;
+  this.length = attrs.length;
+
 }
+
 
 /* 🐴🐴🐴 Step 2: Volume Method 🐴🐴🐴
   Create a method called volume using CuboidMaker's prototype that returns the volume of a given cuboid's length, width, and height
   Formula for cuboid volume: length * width * height   */
+
 
 /* 🐴🐴🐴 Step 3: Surface Area Method 🐴🐴🐴
   Create another method called surfaceArea using CuboidMaker's prototype that returns the surface area of a given cuboid's length, width, and height. 
