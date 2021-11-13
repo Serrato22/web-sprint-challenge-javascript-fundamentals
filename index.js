@@ -225,9 +225,7 @@ function CuboidMaker(attrs) {
 /* 🐴🐴🐴 Step 2: Volume Method 🐴🐴🐴
   Create a method called volume using CuboidMaker's prototype that returns the volume of a given cuboid's length, width, and height
   Formula for cuboid volume: length * width * height   */
-  volume(){
-    
-  }
+
 
 
 /* 🐴🐴🐴 Step 3: Surface Area Method 🐴🐴🐴
